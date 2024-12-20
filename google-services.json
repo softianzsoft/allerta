@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "573736977951",
+    "firebase_url": "https://analisi-dei-rischi.firebaseio.com",
+    "project_id": "analisi-dei-rischi",
+    "storage_bucket": "analisi-dei-rischi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573736977951:android:9a7f255143a528a4",
+        "android_client_info": {
+          "package_name": "com.allerta.informatici.it"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573736977951-3pm9l1kf5g65gdb4ecpatfaa1nqimdil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN6bIWB_2HEsVFX1d29pIrYT2rvAOIWN0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

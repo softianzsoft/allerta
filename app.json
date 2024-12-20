@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Allerta pericoli informatici",
+    "slug": "allerta-pericoli-informatici",
+    "description": "Built by Smart IO Labs",
+    "privacy": "hidden",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "4.0.0",
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "facebookAppId": "368081380599499",
+    "facebookDisplayName": "Allerta pericoli informatici",
+    "facebookScheme": "fb368081380599499",
+    "ios": {
+      "icon": "./assets/images/ios.icon.png",
+      "bundleIdentifier": "com.allerta.informatici.it",
+      "appStoreUrl": "https://apps.apple.com/app/allerta-pericoli-informatici/id1445457482",
+      "supportsTablet": true,
+      "usesAppleSignIn": true,
+      "buildNumber": "2",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "NSLocationAlwaysUsageDescription": "Give us permission to know your updated location so we can send you push notification messages about the related topics from your updated location",
+        "NSLocationUsageDescription": "Enable GPS access permission for us so we can display the nearest topics from your current location",
+        "NSLocationWhenInUseUsageDescription": "Enable GPS access permission for us so we can display the nearest topics from your current location"
+      }
+    },
+    "android": {
+      "icon": "./assets/images/android.icon.png",
+      "package": "com.allerta.informatici.it",
+      "googleServicesFile": "./google-services.json",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.allerta.informatici.it",
+      "versionCode": 32
+    },
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/notification-icon.png",
+          "color": "#ffffff",
+          "mode": "production",
+          "iosDisplayInForeground": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "9d26a729-adee-4eea-9ce7-7c8cbe529244"
+      }
+    }
+  }
+}
